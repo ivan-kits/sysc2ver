@@ -1,0 +1,20 @@
+This file contains general rules for how the SystemC code should be written in order for the
+sysc2ver.py program to run correctly. One of the goals of this development is to eliminate
+as many of these rules as possible.
+
+Header file rules:
+  No blank line after SC_Module and I/O list
+  One blank line seperating I/O list and register list
+  There must be at least one reg entry (add sc_uint<1> dummy; if none).
+  } at end of constructor should be on line by itself
+  edge for reset should be the same direction as for the clock
+  expection at least one local variable, if not define sc_uint<1> dummy;
+
+Method file rules:
+  Method declaration ("void file::method()") should have { on next line
+  only one mnuemonic constant per line
+  no new variable defintions within method
+  no logical = comparisons in clocked logic
+  (0 ..) mapps to {3'b000 ..}
+  if .range() is used in a compound boolean expression, put each expression on a seperate line.
+

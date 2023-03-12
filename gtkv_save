@@ -1,0 +1,13 @@
+*-16.200167 216400 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+@28
+test.clk
+test.reset
+test.start
+test.done
+@24
+test.state[2:0]
+@28
+test.offset[1:0]
+@22
+test.target[7:0]
+test.variable[7:0]

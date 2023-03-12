@@ -1,0 +1,12 @@
+*-16.794775 104000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+@28
+SystemC.clk
+SystemC.reset
+SystemC.start
+SystemC.done
+@24
+SystemC.state[2:0]
+SystemC.offset[1:0]
+@22
+SystemC.target[7:0]
+SystemC.varible[7:0]

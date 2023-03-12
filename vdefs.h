@@ -1,0 +1,14 @@
+/***********************************************************
+
+  This file contains global constants.
+
+***********************************************************/
+
+// Example state machine state definitions
+#define IDLE	0
+#define START	1
+#define STEP1	2
+#define STEP2	3
+#define STEP3	4
+#define STEP4	5
+#define DONE	6

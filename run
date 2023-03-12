@@ -1,0 +1,2 @@
+iverilog -o example.vvp test_fixture.v
+vvp example.vvp
